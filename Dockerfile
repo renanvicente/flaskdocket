@@ -7,6 +7,7 @@ RUN apt-get clean all
 
 RUN pip install flask
 RUN pip install tornado
+RUN pip install boto
 
 ADD hello.py /tmp/hello.py
 
